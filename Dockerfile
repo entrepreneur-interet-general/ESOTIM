@@ -8,9 +8,7 @@ WORKDIR /usr/src/app
 #RUN apt-get update ; apt-get -y install gettext
 #RUN apt-get -y install python3-pyqt5
 
-COPY ./ESOTIM ./ESOTIM/
-#RUN cd ./ESOTIM ; make
-
+COPY ./src ./src/
 
 COPY ./Import ./source/
 RUN mkdir ./target/
@@ -21,7 +19,4 @@ ENV csvpath "/usr/src/app/target/"
 ENV TZ=Europe/Paris
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-CMD ["sh", "-c", "python ./ESOTIM/run.py ${folderpath} ${csvpath}"]
-#CMD cd ./ESOTIM ; make run
-
-# ENTRYPOINT "python ./ESOTIM/run.py"
+CMD ["sh", "-c", "python ./src/run.py ${folderpath} ${csvpath}"]
