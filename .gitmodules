@@ -1,0 +1,6 @@
+[submodule "qtlib"]
+	path = qtlib
+	url = https://github.com/hsoft/qtlib.git
+[submodule "hscommon"]
+	path = hscommon
+	url = https://github.com/hsoft/hscommon.git

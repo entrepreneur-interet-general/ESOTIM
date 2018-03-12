@@ -1,0 +1,812 @@
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: dupeGuru\n"
+"PO-Revision-Date: 2013-12-07 15:22+0000\n"
+"Last-Translator: hsoft <hsoft@hardcoded.net>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/dupeguru/language/cs/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: qt/app.py:81
+msgid "Quit"
+msgstr ""
+
+#: qt/app.py:83 qt/ignore_list_dialog.py:32
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Ignore List"
+msgstr ""
+
+#: qt/app.py:85 cocoa/en.lproj/Localizable.strings:0
+msgid "dupeGuru Help"
+msgstr "Nápověda dupeGuru"
+
+#: qt/app.py:86 cocoa/en.lproj/Localizable.strings:0
+msgid "About dupeGuru"
+msgstr "O aplikaci"
+
+#: qt/app.py:87
+msgid "Open Debug Log"
+msgstr ""
+
+#: qt/app.py:251
+msgid "{} file (*.{})"
+msgstr ""
+
+#: qt/deletion_options.py:30 cocoa/en.lproj/Localizable.strings:0
+msgid "Deletion Options"
+msgstr ""
+
+#: qt/deletion_options.py:35 cocoa/en.lproj/Localizable.strings:0
+msgid "Link deleted files"
+msgstr ""
+
+#: qt/deletion_options.py:37 cocoa/en.lproj/Localizable.strings:0
+msgid ""
+"After having deleted a duplicate, place a link targeting the reference file "
+"to replace the deleted file."
+msgstr ""
+
+#: qt/deletion_options.py:44
+msgid "Hardlink"
+msgstr ""
+
+#: qt/deletion_options.py:44
+msgid "Symlink"
+msgstr ""
+
+#: qt/deletion_options.py:48
+msgid " (unsupported)"
+msgstr ""
+
+#: qt/deletion_options.py:49 cocoa/en.lproj/Localizable.strings:0
+msgid "Directly delete files"
+msgstr ""
+
+#: qt/deletion_options.py:51 cocoa/en.lproj/Localizable.strings:0
+msgid ""
+"Instead of sending files to trash, delete them directly. This option is "
+"usually used as a workaround when the normal deletion method doesn't work."
+msgstr ""
+
+#: qt/deletion_options.py:59 cocoa/en.lproj/Localizable.strings:0
+msgid "Proceed"
+msgstr ""
+
+#: qt/deletion_options.py:60 cocoa/en.lproj/Localizable.strings:0
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: qt/details_table.py:16 cocoa/en.lproj/Localizable.strings:0
+msgid "Attribute"
+msgstr "Atribut"
+
+#: qt/details_table.py:16 cocoa/en.lproj/Localizable.strings:0
+msgid "Selected"
+msgstr "Vybráno"
+
+#: qt/details_table.py:16 qt/directories_model.py:24
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Reference"
+msgstr "Referenční"
+
+#: qt/directories_dialog.py:64 cocoa/en.lproj/Localizable.strings:0
+msgid "Load Results..."
+msgstr "Nahrát výsledky..."
+
+#: qt/directories_dialog.py:65 cocoa/en.lproj/Localizable.strings:0
+msgid "Results Window"
+msgstr "Okno s výsledky"
+
+#: qt/directories_dialog.py:66
+msgid "Add Folder..."
+msgstr ""
+
+#: qt/directories_dialog.py:74 qt/result_window.py:100
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "File"
+msgstr "Soubor"
+
+#: qt/directories_dialog.py:76 qt/result_window.py:108
+msgid "View"
+msgstr ""
+
+#: qt/directories_dialog.py:78 qt/result_window.py:110
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Help"
+msgstr "Nápověda"
+
+#: qt/directories_dialog.py:80 cocoa/en.lproj/Localizable.strings:0
+msgid "Load Recent Results"
+msgstr "Nahrát nedávné výsledky"
+
+#: qt/directories_dialog.py:139 cocoa/en.lproj/Localizable.strings:0
+msgid "Select folders to scan and press \"Scan\"."
+msgstr "Vyberte složky, které chcete prohledat a stiskněte \"Prohledat\"."
+
+#: qt/directories_dialog.py:163 cocoa/en.lproj/Localizable.strings:0
+msgid "Load Results"
+msgstr "Nahrát výsledky"
+
+#: qt/directories_dialog.py:166 cocoa/en.lproj/Localizable.strings:0
+msgid "Scan"
+msgstr "Prohledat"
+
+#: qt/directories_dialog.py:230
+msgid "Unsaved results"
+msgstr ""
+
+#: qt/directories_dialog.py:231 cocoa/en.lproj/Localizable.strings:0
+msgid "You have unsaved results, do you really want to quit?"
+msgstr "Máte neuložené výsledky, opravdu si přejete skončit?"
+
+#: qt/directories_dialog.py:239 cocoa/en.lproj/Localizable.strings:0
+msgid "Select a folder to add to the scanning list"
+msgstr "Vyberte složku, kterou chcete přidat do prohledávacího seznamu"
+
+#: qt/directories_dialog.py:266 cocoa/en.lproj/Localizable.strings:0
+msgid "Select a results file to load"
+msgstr "Vyberte soubor s výsledky, který chcete nahrát"
+
+#: qt/directories_dialog.py:267
+msgid "All Files (*.*)"
+msgstr ""
+
+#: qt/directories_dialog.py:267 qt/result_window.py:311
+msgid "dupeGuru Results (*.dupeguru)"
+msgstr ""
+
+#: qt/directories_dialog.py:278
+msgid "Start a new scan"
+msgstr ""
+
+#: qt/directories_dialog.py:279 cocoa/en.lproj/Localizable.strings:0
+msgid "You have unsaved results, do you really want to continue?"
+msgstr "Máte neuložené výsledky, opravdu si přejete pokračovat?"
+
+#: qt/directories_model.py:23 cocoa/en.lproj/Localizable.strings:0
+msgid "Name"
+msgstr "Název"
+
+#: qt/directories_model.py:23 cocoa/en.lproj/Localizable.strings:0
+msgid "State"
+msgstr "Stav"
+
+#: qt/directories_model.py:24 cocoa/en.lproj/Localizable.strings:0
+msgid "Excluded"
+msgstr "Vyjmuto"
+
+#: qt/directories_model.py:24 cocoa/en.lproj/Localizable.strings:0
+msgid "Normal"
+msgstr "Normální"
+
+#: qt/ignore_list_dialog.py:45 cocoa/en.lproj/Localizable.strings:0
+msgid "Remove Selected"
+msgstr ""
+
+#: qt/ignore_list_dialog.py:46 cocoa/en.lproj/Localizable.strings:0
+msgid "Clear"
+msgstr ""
+
+#: qt/ignore_list_dialog.py:47 qt/problem_dialog.py:61
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Close"
+msgstr "Zavřít"
+
+#: qt/directories_dialog.py:128 cocoa/en.lproj/Localizable.strings:0
+msgid "Scan Type:"
+msgstr ""
+
+#: qt/preferences_dialog.py:43
+msgid "Filter Hardness:"
+msgstr ""
+
+#: qt/preferences_dialog.py:69
+msgid "More Results"
+msgstr ""
+
+#: qt/preferences_dialog.py:74
+msgid "Fewer Results"
+msgstr ""
+
+#: qt/preferences_dialog.py:81
+msgid "Font size:"
+msgstr "Velikost písma:"
+
+#: qt/preferences_dialog.py:85
+msgid "Language:"
+msgstr ""
+
+#: qt/preferences_dialog.py:91 cocoa/en.lproj/Localizable.strings:0
+msgid "Copy and Move:"
+msgstr "Kopírovat a přesunout:"
+
+#: qt/preferences_dialog.py:94 cocoa/en.lproj/Localizable.strings:0
+msgid "Right in destination"
+msgstr "Přímo v cílovém umístění"
+
+#: qt/preferences_dialog.py:95 cocoa/en.lproj/Localizable.strings:0
+msgid "Recreate relative path"
+msgstr "Vytvořit s relativní cestou"
+
+#: qt/preferences_dialog.py:96 cocoa/en.lproj/Localizable.strings:0
+msgid "Recreate absolute path"
+msgstr "Vytvořit s absolutní cestou"
+
+#: qt/preferences_dialog.py:99
+msgid "Custom Command (arguments: %d for dupe, %r for ref):"
+msgstr "Uživatelský příkaz (argumenty: %d pro duplicity, %r pro odkazy):"
+
+#: qt/preferences_dialog.py:174
+msgid "dupeGuru has to restart for language changes to take effect."
+msgstr "dupeGuru has to restart for language changes to take effect."
+
+#: qt/prioritize_dialog.py:75 cocoa/en.lproj/Localizable.strings:0
+msgid "Re-Prioritize duplicates"
+msgstr "Změnit prioritu duplicit"
+
+#: qt/prioritize_dialog.py:79 cocoa/en.lproj/Localizable.strings:0
+msgid ""
+"Add criteria to the right box and click OK to send the dupes that correspond"
+" the best to these criteria to their respective group's reference position. "
+"Read the help file for more information."
+msgstr ""
+"Do pole vpravo přidejte kritéria a klepnutím na tlačítko OK odešlete "
+"duplicity, které těmto kritériím vyhovují do referenčního umístění příslušné"
+" skupiny. Více informací naleznete v nápovědě."
+
+#: qt/problem_dialog.py:33 cocoa/en.lproj/Localizable.strings:0
+msgid "Problems!"
+msgstr "Problémy!"
+
+#: qt/problem_dialog.py:37 cocoa/en.lproj/Localizable.strings:0
+msgid ""
+"There were problems processing some (or all) of the files. The cause of "
+"these problems are described in the table below. Those files were not "
+"removed from your results."
+msgstr ""
+"Při zpracování některých (nebo všech) souborů se vyskytly problémy. Jejich "
+"příčina je popsána v tabulce dole. Dotčené soubory nebyli odstraněny z "
+"výsledků."
+
+#: qt/problem_dialog.py:56
+msgid "Reveal Selected"
+msgstr "Ukázat vybrané ve správci souborů"
+
+#: qt/me/details_dialog.py:18 qt/pe/details_dialog.py:24
+#: qt/result_window.py:56 qt/result_window.py:192 qt/se/details_dialog.py:18
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Details"
+msgstr "Detaily"
+
+#: qt/result_window.py:57 qt/result_window.py:104 qt/result_window.py:167
+#: qt/result_window.py:191 cocoa/en.lproj/Localizable.strings:0
+msgid "Actions"
+msgstr "Akce"
+
+#: qt/result_window.py:58 cocoa/en.lproj/Localizable.strings:0
+msgid "Show Dupes Only"
+msgstr "Zobrazit pouze duplicity"
+
+#: qt/result_window.py:59 cocoa/en.lproj/Localizable.strings:0
+msgid "Show Delta Values"
+msgstr "Zobrazit rozdíly"
+
+#: qt/result_window.py:60
+msgid "Send Marked to Recycle Bin..."
+msgstr ""
+
+#: qt/result_window.py:61 cocoa/en.lproj/Localizable.strings:0
+msgid "Move Marked to..."
+msgstr "Označené přesunout..."
+
+#: qt/result_window.py:62 cocoa/en.lproj/Localizable.strings:0
+msgid "Copy Marked to..."
+msgstr "Označené kopírovat..."
+
+#: qt/result_window.py:63 cocoa/en.lproj/Localizable.strings:0
+msgid "Remove Marked from Results"
+msgstr "Odstranit označené z výsledků"
+
+#: qt/result_window.py:64 cocoa/en.lproj/Localizable.strings:0
+msgid "Re-Prioritize Results..."
+msgstr "Změnit prioritu výsledků..."
+
+#: qt/result_window.py:67 cocoa/en.lproj/Localizable.strings:0
+msgid "Remove Selected from Results"
+msgstr "Odstranit výběr z výsledků"
+
+#: qt/result_window.py:71 cocoa/en.lproj/Localizable.strings:0
+msgid "Add Selected to Ignore List"
+msgstr "Přidat výběr na seznam výjimek"
+
+#: qt/result_window.py:75 cocoa/en.lproj/Localizable.strings:0
+msgid "Make Selected into Reference"
+msgstr ""
+
+#: qt/result_window.py:77 cocoa/en.lproj/Localizable.strings:0
+msgid "Open Selected with Default Application"
+msgstr "Vybrané otevřít výchozí aplikací"
+
+#: qt/result_window.py:80
+msgid "Open Containing Folder of Selected"
+msgstr ""
+
+#: qt/result_window.py:82 cocoa/en.lproj/Localizable.strings:0
+msgid "Rename Selected"
+msgstr "Vybrané přejmenovat"
+
+#: qt/result_window.py:83 cocoa/en.lproj/Localizable.strings:0
+msgid "Mark All"
+msgstr "Označit vše"
+
+#: qt/result_window.py:84 cocoa/en.lproj/Localizable.strings:0
+msgid "Mark None"
+msgstr "Zrušit označení"
+
+#: qt/result_window.py:85 cocoa/en.lproj/Localizable.strings:0
+msgid "Invert Marking"
+msgstr "Invertovat označení"
+
+#: qt/result_window.py:86 cocoa/en.lproj/Localizable.strings:0
+msgid "Mark Selected"
+msgstr "Označit vybrané"
+
+#: qt/result_window.py:87
+msgid "Export To HTML"
+msgstr ""
+
+#: qt/result_window.py:88
+msgid "Export To CSV"
+msgstr ""
+
+#: qt/result_window.py:89 cocoa/en.lproj/Localizable.strings:0
+msgid "Save Results..."
+msgstr "Uložit výsledky..."
+
+#: qt/result_window.py:90 cocoa/en.lproj/Localizable.strings:0
+msgid "Invoke Custom Command"
+msgstr "Spustit vlastní příkaz"
+
+#: qt/result_window.py:102
+msgid "Mark"
+msgstr ""
+
+#: qt/result_window.py:106 cocoa/en.lproj/Localizable.strings:0
+msgid "Columns"
+msgstr "Sloupce"
+
+#: qt/result_window.py:163
+msgid "Reset to Defaults"
+msgstr "Výchozí nastavení"
+
+#: qt/result_window.py:185
+msgid "{} Results"
+msgstr ""
+
+#: qt/result_window.py:193 cocoa/en.lproj/Localizable.strings:0
+msgid "Dupes Only"
+msgstr "Jen duplicity"
+
+#: qt/result_window.py:194
+msgid "Delta Values"
+msgstr ""
+
+#: qt/result_window.py:310 cocoa/en.lproj/Localizable.strings:0
+msgid "Select a file to save your results to"
+msgstr "Vyberte soubor pro uložení výsledků"
+
+#: qt/me/preferences_dialog.py:30 cocoa/en.lproj/Localizable.strings:0
+msgid "Tags to scan:"
+msgstr "Prohledávané tagy:"
+
+#: qt/me/preferences_dialog.py:36 cocoa/en.lproj/Localizable.strings:0
+msgid "Track"
+msgstr "Stopa"
+
+#: qt/me/preferences_dialog.py:38 cocoa/en.lproj/Localizable.strings:0
+msgid "Artist"
+msgstr "Umělec"
+
+#: qt/me/preferences_dialog.py:40 cocoa/en.lproj/Localizable.strings:0
+msgid "Album"
+msgstr "Album"
+
+#: qt/me/preferences_dialog.py:42 cocoa/en.lproj/Localizable.strings:0
+msgid "Title"
+msgstr "Titul"
+
+#: qt/me/preferences_dialog.py:44 cocoa/en.lproj/Localizable.strings:0
+msgid "Genre"
+msgstr "Žánr"
+
+#: qt/me/preferences_dialog.py:46 cocoa/en.lproj/Localizable.strings:0
+msgid "Year"
+msgstr "Rok"
+
+#: qt/me/preferences_dialog.py:50 qt/se/preferences_dialog.py:30
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Word weighting"
+msgstr "Váha slov"
+
+#: qt/me/preferences_dialog.py:52 qt/se/preferences_dialog.py:32
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Match similar words"
+msgstr "Shoda podobných slov"
+
+#: qt/me/preferences_dialog.py:54 qt/pe/preferences_dialog.py:21
+#: qt/se/preferences_dialog.py:34 cocoa/en.lproj/Localizable.strings:0
+msgid "Can mix file kind"
+msgstr "Různé druhy souborů"
+
+#: qt/me/preferences_dialog.py:56 qt/pe/preferences_dialog.py:23
+#: qt/se/preferences_dialog.py:36 cocoa/en.lproj/Localizable.strings:0
+msgid "Use regular expressions when filtering"
+msgstr "Při filtrování používat regulární výrazy"
+
+#: qt/me/preferences_dialog.py:58 qt/pe/preferences_dialog.py:25
+#: qt/se/preferences_dialog.py:38 cocoa/en.lproj/Localizable.strings:0
+msgid "Remove empty folders on delete or move"
+msgstr "Po smazání a přesunu odstranit prázdné složky"
+
+#: qt/me/preferences_dialog.py:60 qt/pe/preferences_dialog.py:27
+#: qt/se/preferences_dialog.py:59 cocoa/en.lproj/Localizable.strings:0
+msgid "Ignore duplicates hardlinking to the same file"
+msgstr "Ignorovat duplicity ve formě hardlinků na stejný soubor"
+
+#: qt/me/preferences_dialog.py:62 qt/pe/preferences_dialog.py:29
+#: qt/se/preferences_dialog.py:62 cocoa/en.lproj/Localizable.strings:0
+msgid "Debug mode (restart required)"
+msgstr "Ladící režim (vyžaduje restart)"
+
+#: qt/pe/preferences_dialog.py:19 cocoa/en.lproj/Localizable.strings:0
+msgid "Match pictures of different dimensions"
+msgstr "Porovnávat snímky s různými rozměry"
+
+#: qt/app.py:84 qt/app.py:179 cocoa/en.lproj/Localizable.strings:0
+msgid "Clear Picture Cache"
+msgstr "Vyčistit cache snímků"
+
+#: qt/app.py:180 cocoa/en.lproj/Localizable.strings:0
+msgid "Do you really want to remove all your cached picture analysis?"
+msgstr "Opravdu chcete odstranit veškeré uložené analýzy snímků?"
+
+#: qt/app.py:184
+msgid "Picture cache cleared."
+msgstr "Picture cache cleared."
+
+#: qt/se/preferences_dialog.py:41
+msgid "Ignore files smaller than"
+msgstr "Ignorovat soubory menší než"
+
+#: qt/se/preferences_dialog.py:52 cocoa/en.lproj/Localizable.strings:0
+msgid "KB"
+msgstr "KB"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "%@ Results"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Action"
+msgstr "Akce"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Add New Folder..."
+msgstr "Přidat novou složku..."
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Automatically check for updates"
+msgstr "Automaticky kontrolovat aktualizace"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Basic"
+msgstr "Základní"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Bring All to Front"
+msgstr "Vše do popředí"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Check for update..."
+msgstr "Zkontrolovat aktualizace..."
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Close Window"
+msgstr "Zavřít okno"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Custom command (arguments: %d for dupe, %r for ref):"
+msgstr "Uživatelský příkaz (argumenty: %d pro duplicity, %r pro odkazy):"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Cut"
+msgstr "Vyjmout"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Delta"
+msgstr "Delta"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Details of Selected File"
+msgstr "Detaily vybraného souboru"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Details Panel"
+msgstr "Detaily"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Directories"
+msgstr "Adresáře"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "dupeGuru"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "dupeGuru Preferences"
+msgstr "Předvolby dupeGuru"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "dupeGuru Results"
+msgstr "Výsledky dupeGuru"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "dupeGuru Website"
+msgstr "dupeGuru Website"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Edit"
+msgstr "Upravit"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Export Results to CSV"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Export Results to XHTML"
+msgstr "Exportovat výsledky do XHTML"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Fewer results"
+msgstr "Méně výsledků"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Filter"
+msgstr "Filtr"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Filter hardness:"
+msgstr "Tvrdost filtru:"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Filter Results..."
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Folder Selection Window"
+msgstr "Výběr složky"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Font Size:"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Hide dupeGuru"
+msgstr "Skrýt dupeGuru"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Hide Others"
+msgstr "Skrýt ostatní"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Ignore files smaller than:"
+msgstr "Ignorovat soubory menší než:"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Load from file..."
+msgstr "Nahrát ze souboru..."
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Minimize"
+msgstr "Minimalizovat"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Mode"
+msgstr "Režim"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "More results"
+msgstr "Více výsledků"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Ok"
+msgstr "Ok"
+
+#: qt/app.py:82 qt/preferences_dialog.py:116
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Options"
+msgstr "Možnosti"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Paste"
+msgstr "Vložit"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Preferences..."
+msgstr "Předvolby..."
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Quick Look"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Quit dupeGuru"
+msgstr "Ukončit dupeGuru"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Reset to Default"
+msgstr "Výchozí nastavení"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Reset To Defaults"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Reveal"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Reveal Selected in Finder"
+msgstr "Vybrané otevřít ve Finderu"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Select All"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Send Marked to Trash..."
+msgstr "Vyhodit označené do koše..."
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Services"
+msgstr ""
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Show All"
+msgstr "Zobrazit vše"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Start Duplicate Scan"
+msgstr "Spustit hledání duplicit"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "The name '%@' already exists."
+msgstr "The name '%@' already exists."
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Window"
+msgstr "Okno"
+
+#: cocoa/en.lproj/Localizable.strings:0
+msgid "Zoom"
+msgstr "Zoom"
+
+#: qt/directories_dialog.py:116 cocoa/en.lproj/Localizable.strings:0
+msgid "Application Mode:"
+msgstr ""
+
+#: qt/directories_dialog.py:121 cocoa/en.lproj/Localizable.strings:0
+msgid "Music"
+msgstr ""
+
+#: qt/directories_dialog.py:121 cocoa/en.lproj/Localizable.strings:0
+msgid "Picture"
+msgstr ""
+
+#: qt/directories_dialog.py:121 cocoa/en.lproj/Localizable.strings:0
+msgid "Standard"
+msgstr ""
+
+#: qt/directories_dialog.py:135
+msgid "More Options"
+msgstr ""
+
+#~ msgid "Removing dead tracks from your iTunes Library"
+#~ msgstr "Odstraňuji mrtvé stopy z Vaší knihovny iTunes"
+
+#~ msgid "Scanning the iTunes Library"
+#~ msgstr "Procházím knihovnu iTunes"
+
+#~ msgid "Sending dupes to the Trash"
+#~ msgstr "Vyhazuji kopie do koše"
+
+#~ msgid "Talking to iTunes. Don't touch it!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your iTunes Library contains %d dead tracks ready to be removed. Continue?"
+#~ msgstr ""
+#~ "Your iTunes Library contains %d dead tracks ready to be removed. Continue?"
+
+#~ msgid "You have no dead tracks in your iTunes Library"
+#~ msgstr "You have no dead tracks in your iTunes Library"
+
+#~ msgid "The iTunes application couldn't be found."
+#~ msgstr ""
+
+#~ msgid "Talking to iPhoto. Don't touch it!"
+#~ msgstr ""
+
+#~ msgid "Talking to Aperture. Don't touch it!"
+#~ msgstr ""
+
+#~ msgid "Deleted Aperture photos were sent to a project called \"dupeGuru Trash\"."
+#~ msgstr ""
+
+#~ msgid "The iPhoto application couldn't be found."
+#~ msgstr "Nelze najít aplikaci iPhoto."
+
+#~ msgid "Preferences"
+#~ msgstr ""
+
+#~ msgid "Check for Update"
+#~ msgstr ""
+
+#~ msgid "Filename"
+#~ msgstr "Název souboru"
+
+#~ msgid "Filename - Fields"
+#~ msgstr "Název - pole"
+
+#~ msgid "Filename - Fields (No Order)"
+#~ msgstr "Název - pole (bez pořadí)"
+
+#~ msgid "Tags"
+#~ msgstr "Tagy"
+
+#~ msgid "Contents"
+#~ msgstr "Obsahuje"
+
+#~ msgid "Audio Contents"
+#~ msgstr ""
+
+#~ msgid "EXIF Timestamp"
+#~ msgstr "EXIF razítko"
+
+#~ msgid "Folders"
+#~ msgstr "Složky"
+
+#~ msgid "Add Aperture Library"
+#~ msgstr ""
+
+#~ msgid "Add iPhoto Library"
+#~ msgstr "Přidat knihovnu iPhoto"
+
+#~ msgid "Add iTunes Library"
+#~ msgstr "Přidat složku iTunes"
+
+#~ msgid "Audio Content"
+#~ msgstr "Zvuk"
+
+#~ msgid "Content"
+#~ msgstr "Obsah"
+
+#~ msgid "dupeGuru ME Preferences"
+#~ msgstr "Předvolby dupeGuru ME"
+
+#~ msgid "dupeGuru PE Preferences"
+#~ msgstr "Předvolby dupeGuru PE"
+
+#~ msgid "Remove Dead Tracks in iTunes"
+#~ msgstr "Odstranit z iTunes mrtvé stopy"
