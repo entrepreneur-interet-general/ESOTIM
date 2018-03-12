@@ -1,6 +1,6 @@
 Import/*
 Doublons/*
-ESOTIM/run_*
+src/run_*
 
 !Import/.gitkeep
 !Doublons/.gitkeep
